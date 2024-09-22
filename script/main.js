@@ -34,4 +34,4 @@ function addToarray(e) {
 
 }
 
-formInput.addEventListener("submit", addToarray);
+formInput.addEventListener("submit", addToarray); 

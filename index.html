@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>ID-CARD GENERATOR</title>
+</head>
+<body>
+    <section>
+        <div id="mainDiv">
+          <!-- id-directory interface -->
+          <div>
+            <h1>Hello World</h1>
+          </div>
+          <!--Form Section  -->
+          <div id="imgandform">
+            <img
+              src="https://images.unsplash.com/photo-1542299072-c4b3bf0a683c?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              alt=""
+              width="200px"
+            />
+            <form id="FormId">
+              <div>
+                <label for="name">Full Name:</label>
+                <input type="text" id="nameInput" name="name">
+              </div>
+  
+              <div>
+                <label for="Position">Position:</label>
+                <input type="text" id="positionInput" name="position">
+              </div>
+  
+              <div>
+                <label for="Id">ID-Number:</label>
+                <input type="text" id="idNumberInput" name="IdNumber">
+              </div>
+  
+              <div>
+                <label for="JoinDate">Joined Date:</label>
+                <input type="date" id="joinDateInput" name="Joineddate">
+              </div>
+  
+              <div>
+                <label for="expirationDate">Expires:</label>
+                <input type="Date" id="expDateInput" name="expDate">
+              </div>
+  
+              <div>
+                <label for="bloodGroup">Blood:</label>
+                <input type="text" id="bloodInput" name="blood">
+              </div>
+  
+              <button id="btn" type="submit" onclick="generateCard()">
+                Generate Card
+              </button>
+  
+            </form>
+          </div>
+        </div>
+      </section>
+
+
+  <script src="./script/main.js"></script>  
+</body>
+</html>

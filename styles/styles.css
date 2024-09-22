@@ -1,0 +1,26 @@
+#mainDiv{
+    display: flex; 
+    flex-direction: row;
+ }
+ 
+ #FormId{
+     /* width: 400px; */
+     margin: auto;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 5px;  
+ }
+ 
+ #imgandform{
+     margin-left: 900px;
+ }
+ #btn {
+     display: block;
+     margin: 10px 0;
+     padding: 10px 20px;
+     background-color: #007bff;
+     color: #fff;
+     border: none;
+     border-radius: 3px;
+     cursor: pointer;
+ }
